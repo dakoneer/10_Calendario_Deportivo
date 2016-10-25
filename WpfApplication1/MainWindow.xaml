@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="398" Width="500">
+    <Grid>
+        <Label x:Name="label_seleccionar" Content="Seleccionar equipos" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="27"/>
+        <TextBox x:Name="textBox_seleccionar" HorizontalAlignment="Left" Height="27" Margin="130,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="291"/>
+        <Button x:Name="button_seleccionar" Content="Cargar" HorizontalAlignment="Left" Margin="426,10,0,0" VerticalAlignment="Top" Width="56" Height="27" Click="button_seleccionar_Click"/>
+        <Button x:Name="button_calcular" Content="Calcular jornadas" HorizontalAlignment="Left" Margin="382,42,0,0" VerticalAlignment="Top" Width="100" Click="button_calcular_Click"/>
+        <ListBox x:Name="listBox_equipos" HorizontalAlignment="Left" Height="290" Margin="10,67,0,0" VerticalAlignment="Top" Width="141"/>
+        <Label x:Name="label_equipos" Content="Equipos" HorizontalAlignment="Left" Margin="41,36,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <ListBox x:Name="listBox_jornadas" HorizontalAlignment="Left" Height="265" Margin="156,67,0,0" VerticalAlignment="Top" Width="326"/>
+        <Label x:Name="label" Content="Jornadas" HorizontalAlignment="Left" Margin="264,39,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="button_generarXML" Content="Generar XML" HorizontalAlignment="Left" Margin="379,337,0,0" VerticalAlignment="Top" Width="103" Click="button_generarXML_Click"/>
+
+    </Grid>
+</Window>
